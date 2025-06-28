@@ -1,0 +1,115 @@
+/* PC、スマホ共通スタイル */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Noto Sans Japanese" ;
+  background-color: #fff;
+}
+
+/* ヘッダー */
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  align-items: center;
+  margin: 30px 200px;
+}
+
+/* ロゴ */
+.logo {
+  font-size: 34px;
+  color: #000000;
+  font-weight: 700;
+  border: solid 1px  #000000;
+  padding: 3px 19px 3px 19px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+/* ナビゲーションのレイアウト */
+.nav-pc {
+
+}
+
+.nav-pc ul {
+  display: flex;
+  padding-left: 0;
+}
+
+.nav-pc li {
+  list-style: none;
+  margin: 0 18px;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+.nav-pc a {
+  font-size: 34px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* メインビジュアル */
+.main-visual img {
+  width: 100%;
+  top: 140px;
+}
+
+/* 見出し */
+h2 {
+  font-size: 34px;
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+/* アバウト */
+.about {
+  margin: 80px auto 80px auto;
+}
+
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 250px;
+}
+
+.about-photo {
+  width: 282px;
+  height: 284px;
+  border-radius: 50%;
+}
+
+.about-name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+/* ワークス */
+.works {
+  margin: 80px auto 80px auto;
+  padding: 10px 40px 0px 40px;
+}
+
+.works-flex {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  padding: 20px;
+}
+
+.works-photo {
+  width: 240px;
+  height: 178.42px;
+}
+
+.copyright {
+  text-align: center;
+}
