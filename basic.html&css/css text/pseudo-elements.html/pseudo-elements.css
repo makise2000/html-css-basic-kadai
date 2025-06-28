@@ -1,0 +1,22 @@
+h1::before {
+  content: "🔶";
+  color: orange;
+}
+
+h1::after {
+  content: "■";
+  color: pink;
+}
+
+p::first-letter {
+  /* 文字装飾のプロパティを使います(以下はあくまで一例です */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p::first-line {
+  /* 文字装飾のプロパティを使います(以下はあくまで一例です */
+  font-size: 24px;
+  font-weight: bold;
+  color: gray;
+}
